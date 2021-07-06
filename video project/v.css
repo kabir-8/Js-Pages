@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.7);
+}
+main video{
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -3;
+}
+#preload{
+    transition:all 1s ease;
+    position: absolute;
+    z-index: 5;
+    background: white;
+    height: 100% ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onvideo{
+    color: floralwhite;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch
+{   border: none;
+    position: absolute;
+    left: 180px;
+    bottom: 120px; 
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+#span{
+    
+    transition: all .75s ease;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    background-color:rgb(57,118,159);
+    width: 3.85rem;
+    height: 2rem;
+    left: 0px;
+    border-radius: 10px;
+    border: 2px rgb(57,118,159) solid;
+}
